@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node", "@playwright/test"],
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "pages/**/*.ts",
+    "tests/**/*.ts",
+    "fixtures.ts",
+    "playwright.config.ts",
+    "Temp/homework-day2.spec.ts",
+    "Temp/example.spec.ts"
+  ]
+}

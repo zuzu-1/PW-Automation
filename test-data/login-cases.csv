@@ -1,0 +1,3 @@
+name,email,password,expectedResult
+valid credentials,customer@practicesoftwaretesting.com,welcome01,success
+invalid credentials,customer@practicesoftwaretesting.com,wrongpassword,failure
